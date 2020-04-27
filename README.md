@@ -1,13 +1,18 @@
 # Vue-ASP.NET MVC
-在MVC內嵌入Vue component，主要給目前無法前後分離MVC環境使用，不單只是CDN import Vue js，
+* 在MVC內嵌入Vue component，主要給目前無法前後分離MVC環境使用，不單只是CDN import Vue js，
 同時也可以import vue component 避免重覆開發。
+
+* 三種不同方式接進值進vue component
+    * viewData
+    * models
+    * call api
 
 ### 使用軟體
 * Visual Studio 2019 for mac
 * Vue.js CLI 4.3.0
 * Vue.js 2.6.11
 
-###建置方式主要參考
+### 建置方式主要參考
 https://github.com/sunsande/Vue.js-ASP.NET-MVC-intergration
 
 
@@ -48,7 +53,7 @@ https://github.com/sunsande/Vue.js-ASP.NET-MVC-intergration
 * 重新執行後可看見Feature 3已經 import to Feature 2
 插入圖片
 
-### vue component accept the data from viewData
+### 1.vue component accept the data from viewData
 * HomeController.cs 新增回傳值
 ```asp
 public ActionResult Index()
@@ -104,7 +109,7 @@ var vueData = @Html.Raw(Json.Encode(ViewData["VueData"]));
 插入圖片
 
 
-### vue component accept data from model
+### 2.vue component accept data from model
 * 在Model 底下新增檔案 BindingModel.cs
 ```asp
 using System;
@@ -201,7 +206,7 @@ new Vue({
 * 切換回到接值頁(Vuetest.cshtml)重新執行後即可看到由 model 宣告的值
 插入圖片
 
-### vue call api to get value
+### 3.vue call api to get value
 * 在controller底下新增HelloWorldController
 ```asp
         // GET: /HelloWorld/
