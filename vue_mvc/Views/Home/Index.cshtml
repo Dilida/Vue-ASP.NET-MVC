@@ -1,0 +1,17 @@
+﻿
+<h1>ASP.NET MVC  and Vue.js Integration</h1>
+
+<noscript><strong>We're sorry but vuejs_src doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+
+<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+<h5>@ViewData["ControllData"]</h5>
+<div id=f1App></div>
+<div id=f2App></div>
+
+
+<script>
+var vueData = @Html.Raw(Json.Encode(ViewData["VueData"]));
+</script>
+<script src="~/vuejs/js/chunk-vendors.js"></script>
+<script src="~/vuejs/feature1.js"></script>
+<script src="~/vuejs/feature2.js"></script>
