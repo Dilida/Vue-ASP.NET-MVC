@@ -21,8 +21,8 @@
 /Users/kingbay/vue_mvc/vue_mvc/bin/System.Net.Http.Formatting.xml
 /Users/kingbay/vue_mvc/vue_mvc/bin/System.Web.Http.xml
 /Users/kingbay/vue_mvc/vue_mvc/bin/System.Web.Http.WebHost.xml
+/Users/kingbay/vue_mvc/vue_mvc/obj/Debug/vue_mvc.csprojAssemblyReference.cache
 /Users/kingbay/vue_mvc/vue_mvc/obj/Debug/vue_mvc.csproj.CoreCompileInputs.cache
 /Users/kingbay/vue_mvc/vue_mvc/obj/Debug/vue_mvc.csproj.CopyComplete
 /Users/kingbay/vue_mvc/vue_mvc/obj/Debug/vue_mvc.dll
 /Users/kingbay/vue_mvc/vue_mvc/obj/Debug/vue_mvc.pdb
-/Users/kingbay/vue_mvc/vue_mvc/obj/Debug/vue_mvc.csprojAssemblyReference.cache
