@@ -51,7 +51,7 @@ https://github.com/sunsande/Vue.js-ASP.NET-MVC-intergration
 </style>
 ```
 * 重新執行後可看見Feature 3已經 import to Feature 2
-
+![GITHUB](https://github.com/Dilida/Vue-ASP.NET-MVC/blob/master/img/feature3.png)
 
 ### 1.vue component accept the data from viewData
 * HomeController.cs 新增回傳值
@@ -106,7 +106,7 @@ var vueData = @Html.Raw(Json.Encode(ViewData["VueData"]));
 </style>
 ```
 * 切換回到接值頁(index.cshtml)重新執行後即可看到由 viewData 宣告的值
-插入圖片
+![GITHUB](https://github.com/Dilida/Vue-ASP.NET-MVC/blob/master/img/viewdata.png)
 
 
 ### 2.vue component accept data from model
