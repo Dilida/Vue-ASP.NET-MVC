@@ -51,7 +51,7 @@ https://github.com/sunsande/Vue.js-ASP.NET-MVC-intergration
 </style>
 ```
 * 重新執行後可看見Feature 3已經 import to Feature 2
-插入圖片
+
 
 ### 1.vue component accept the data from viewData
 * HomeController.cs 新增回傳值
@@ -204,7 +204,7 @@ new Vue({
 ```
 
 * 切換回到接值頁(Vuetest.cshtml)重新執行後即可看到由 model 宣告的值
-插入圖片
+![GITHUB](https://github.com/Dilida/Vue-ASP.NET-MVC/blob/master/img/model.png)
 
 ### 3.vue call api to get value
 * 在controller底下新增HelloWorldController
